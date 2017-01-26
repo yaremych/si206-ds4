@@ -51,4 +51,9 @@ class FactorialTests(unittest.TestCase):
         f1 = factorial(3)
         self.assertEqual(f1, 6)
 
+    def test_factorial2(self):
+        f1 = factorial(2)
+        self.assertEqual(f1, 2)
+
+
 unittest.main(verbosity=2)
