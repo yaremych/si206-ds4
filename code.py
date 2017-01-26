@@ -38,3 +38,7 @@ class TestCases(unittest.TestCase):
     def test_leap_year(self):
         t1 = check_leap_year(2009)
         self.assertEqual(t1, False)
+
+    def test_leap_year2(self):
+        t1 = check_leap_year(0)
+        self.assertEqual(t1, False)
