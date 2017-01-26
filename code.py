@@ -45,6 +45,10 @@ class LeapYearTests(unittest.TestCase):
         t1 = check_leap_year(2016)
         self.assertEqual(t1, True)
 
+    def test_leap_year3(self):
+        t1 = check_leap_year(0)
+        self.assertEqual(t1, True)
+
 
 class FactorialTests(unittest.TestCase):
     def test_factorial1(self):
